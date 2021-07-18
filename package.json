@@ -1,0 +1,25 @@
+{
+  "name": "war_32on_32home_32soil_32_40alpha_41",
+  "main": "main.js",
+  "productName": "War On Home Soil (Alpha)",
+  "description": "War On Home Soil (Alpha)",
+  "author": "Rey Smith(GC Games)",
+  "version": "0.3.2",
+  "dependencies": {
+    
+  },
+  "scripts": {
+    "start": "electron main.js",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "8.2.5",
+    "electron-builder": "22.9.1"
+  },
+  "build": {
+    "appId": "com.example.gamename",
+    "directories": {
+      "buildResources": "buildResources"
+    }
+  }
+}
