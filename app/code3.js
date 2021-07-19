@@ -134,7 +134,7 @@ gdjs.referance_32levelCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPre
 }if ( gdjs.referance_32levelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.referance_32levelCode.conditionTrue_1 = gdjs.referance_32levelCode.condition1IsTrue_0;
-gdjs.referance_32levelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10059620);
+gdjs.referance_32levelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10543756);
 }
 }}
 if (gdjs.referance_32levelCode.condition1IsTrue_0.val) {

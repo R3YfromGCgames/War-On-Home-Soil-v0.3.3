@@ -131,7 +131,7 @@ gdjs.testing_32levelCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPress
 }if ( gdjs.testing_32levelCode.condition0IsTrue_0.val ) {
 {
 {gdjs.testing_32levelCode.conditionTrue_1 = gdjs.testing_32levelCode.condition1IsTrue_0;
-gdjs.testing_32levelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10203468);
+gdjs.testing_32levelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10689868);
 }
 }}
 if (gdjs.testing_32levelCode.condition1IsTrue_0.val) {
