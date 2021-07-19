@@ -17,7 +17,7 @@
     "electron-builder": "22.9.1"
   },
   "build": {
-    "appId": "com.example.gamename",
+    "appId": "rey.kyson.josh",
     "directories": {
       "buildResources": "buildResources"
     }
