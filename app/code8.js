@@ -129,7 +129,7 @@ gdjs.lvl_323Code.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runti
 }if ( gdjs.lvl_323Code.condition0IsTrue_0.val ) {
 {
 {gdjs.lvl_323Code.conditionTrue_1 = gdjs.lvl_323Code.condition1IsTrue_0;
-gdjs.lvl_323Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9863844);
+gdjs.lvl_323Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8534924);
 }
 }}
 if (gdjs.lvl_323Code.condition1IsTrue_0.val) {

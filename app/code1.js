@@ -121,7 +121,7 @@ gdjs.trainingCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runt
 }if ( gdjs.trainingCode.condition0IsTrue_0.val ) {
 {
 {gdjs.trainingCode.conditionTrue_1 = gdjs.trainingCode.condition1IsTrue_0;
-gdjs.trainingCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9737124);
+gdjs.trainingCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9999084);
 }
 }}
 if (gdjs.trainingCode.condition1IsTrue_0.val) {
