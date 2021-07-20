@@ -18,12 +18,6 @@ gdjs.referance_32levelCode.condition1IsTrue_0 = {val:false};
 gdjs.referance_32levelCode.condition2IsTrue_0 = {val:false};
 gdjs.referance_32levelCode.condition3IsTrue_0 = {val:false};
 gdjs.referance_32levelCode.condition4IsTrue_0 = {val:false};
-gdjs.referance_32levelCode.conditionTrue_1 = {val:false};
-gdjs.referance_32levelCode.condition0IsTrue_1 = {val:false};
-gdjs.referance_32levelCode.condition1IsTrue_1 = {val:false};
-gdjs.referance_32levelCode.condition2IsTrue_1 = {val:false};
-gdjs.referance_32levelCode.condition3IsTrue_1 = {val:false};
-gdjs.referance_32levelCode.condition4IsTrue_1 = {val:false};
 
 
 gdjs.referance_32levelCode.eventsList0 = function(runtimeScene) {
@@ -130,21 +124,20 @@ gdjs.referance_32levelCode.eventsList1(runtimeScene);
 gdjs.referance_32levelCode.condition0IsTrue_0.val = false;
 gdjs.referance_32levelCode.condition1IsTrue_0.val = false;
 {
-gdjs.referance_32levelCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "q");
+gdjs.referance_32levelCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if ( gdjs.referance_32levelCode.condition0IsTrue_0.val ) {
 {
-{gdjs.referance_32levelCode.conditionTrue_1 = gdjs.referance_32levelCode.condition1IsTrue_0;
-gdjs.referance_32levelCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10543756);
-}
+gdjs.referance_32levelCode.condition1IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 0.25, "FireRate");
 }}
 if (gdjs.referance_32levelCode.condition1IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("tank"), gdjs.referance_32levelCode.GDtankObjects1);
 gdjs.referance_32levelCode.GDbulletObjects1.length = 0;
 
-{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.referance_32levelCode.mapOfGDgdjs_46referance_9532levelCode_46GDbulletObjects1Objects, (( gdjs.referance_32levelCode.GDtankObjects1.length === 0 ) ? 0 :gdjs.referance_32levelCode.GDtankObjects1[0].getPointX("shootpoint")), (( gdjs.referance_32levelCode.GDtankObjects1.length === 0 ) ? 0 :gdjs.referance_32levelCode.GDtankObjects1[0].getPointY("shootpoint")), "");
+{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.referance_32levelCode.mapOfGDgdjs_46referance_9532levelCode_46GDbulletObjects1Objects, (( gdjs.referance_32levelCode.GDtankObjects1.length === 0 ) ? 0 :gdjs.referance_32levelCode.GDtankObjects1[0].getPointX("Canon")), (( gdjs.referance_32levelCode.GDtankObjects1.length === 0 ) ? 0 :gdjs.referance_32levelCode.GDtankObjects1[0].getPointY("Canon")), "");
 }{for(var i = 0, len = gdjs.referance_32levelCode.GDbulletObjects1.length ;i < len;++i) {
-    gdjs.referance_32levelCode.GDbulletObjects1[i].addPolarForce((( gdjs.referance_32levelCode.GDtankObjects1.length === 0 ) ? 0 :gdjs.referance_32levelCode.GDtankObjects1[0].getAngle()) - 90, 200, 1);
+    gdjs.referance_32levelCode.GDbulletObjects1[i].addForceTowardPosition(gdjs.evtTools.input.getMouseX(runtimeScene, "", 0), gdjs.evtTools.input.getMouseY(runtimeScene, "", 0), 300, 1);
 }
+}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "FireRate");
 }}
 
 }

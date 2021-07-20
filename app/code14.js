@@ -1,26 +1,40 @@
-gdjs.creditsCode = {};
-gdjs.creditsCode.GDNewObjectObjects1= [];
-gdjs.creditsCode.GDNewObjectObjects2= [];
-gdjs.creditsCode.GDNObjects1= [];
-gdjs.creditsCode.GDNObjects2= [];
-gdjs.creditsCode.GDNewObject2Objects1= [];
-gdjs.creditsCode.GDNewObject2Objects2= [];
+gdjs.New_32sceneCode = {};
+gdjs.New_32sceneCode.GDNewObjectObjects1= [];
+gdjs.New_32sceneCode.GDNewObjectObjects2= [];
+gdjs.New_32sceneCode.GDNewObject2Objects1= [];
+gdjs.New_32sceneCode.GDNewObject2Objects2= [];
+gdjs.New_32sceneCode.GDNewObject3Objects1= [];
+gdjs.New_32sceneCode.GDNewObject3Objects2= [];
 
-gdjs.creditsCode.conditionTrue_0 = {val:false};
-gdjs.creditsCode.condition0IsTrue_0 = {val:false};
-gdjs.creditsCode.condition1IsTrue_0 = {val:false};
+gdjs.New_32sceneCode.conditionTrue_0 = {val:false};
+gdjs.New_32sceneCode.condition0IsTrue_0 = {val:false};
+gdjs.New_32sceneCode.condition1IsTrue_0 = {val:false};
 
 
-gdjs.creditsCode.mapOfGDgdjs_46creditsCode_46GDNewObject2Objects1Objects = Hashtable.newFrom({"NewObject2": gdjs.creditsCode.GDNewObject2Objects1});gdjs.creditsCode.eventsList0 = function(runtimeScene) {
+gdjs.New_32sceneCode.mapOfGDgdjs_46New_9532sceneCode_46GDNewObject2Objects1Objects = Hashtable.newFrom({"NewObject2": gdjs.New_32sceneCode.GDNewObject2Objects1});gdjs.New_32sceneCode.mapOfGDgdjs_46New_9532sceneCode_46GDNewObject3Objects1Objects = Hashtable.newFrom({"NewObject3": gdjs.New_32sceneCode.GDNewObject3Objects1});gdjs.New_32sceneCode.eventsList0 = function(runtimeScene) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("NewObject2"), gdjs.creditsCode.GDNewObject2Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewObject2"), gdjs.New_32sceneCode.GDNewObject2Objects1);
 
-gdjs.creditsCode.condition0IsTrue_0.val = false;
+gdjs.New_32sceneCode.condition0IsTrue_0.val = false;
 {
-gdjs.creditsCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.creditsCode.mapOfGDgdjs_46creditsCode_46GDNewObject2Objects1Objects, runtimeScene, true, false);
-}if (gdjs.creditsCode.condition0IsTrue_0.val) {
+gdjs.New_32sceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.New_32sceneCode.mapOfGDgdjs_46New_9532sceneCode_46GDNewObject2Objects1Objects, runtimeScene, true, false);
+}if (gdjs.New_32sceneCode.condition0IsTrue_0.val) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lvl 1", false);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("NewObject3"), gdjs.New_32sceneCode.GDNewObject3Objects1);
+
+gdjs.New_32sceneCode.condition0IsTrue_0.val = false;
+{
+gdjs.New_32sceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.New_32sceneCode.mapOfGDgdjs_46New_9532sceneCode_46GDNewObject3Objects1Objects, runtimeScene, true, false);
+}if (gdjs.New_32sceneCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "main menu", false);
 }}
 
@@ -29,19 +43,19 @@ gdjs.creditsCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdj
 
 };
 
-gdjs.creditsCode.func = function(runtimeScene) {
+gdjs.New_32sceneCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
-gdjs.creditsCode.GDNewObjectObjects1.length = 0;
-gdjs.creditsCode.GDNewObjectObjects2.length = 0;
-gdjs.creditsCode.GDNObjects1.length = 0;
-gdjs.creditsCode.GDNObjects2.length = 0;
-gdjs.creditsCode.GDNewObject2Objects1.length = 0;
-gdjs.creditsCode.GDNewObject2Objects2.length = 0;
+gdjs.New_32sceneCode.GDNewObjectObjects1.length = 0;
+gdjs.New_32sceneCode.GDNewObjectObjects2.length = 0;
+gdjs.New_32sceneCode.GDNewObject2Objects1.length = 0;
+gdjs.New_32sceneCode.GDNewObject2Objects2.length = 0;
+gdjs.New_32sceneCode.GDNewObject3Objects1.length = 0;
+gdjs.New_32sceneCode.GDNewObject3Objects2.length = 0;
 
-gdjs.creditsCode.eventsList0(runtimeScene);
+gdjs.New_32sceneCode.eventsList0(runtimeScene);
 return;
 
 }
 
-gdjs['creditsCode'] = gdjs.creditsCode;
+gdjs['New_32sceneCode'] = gdjs.New_32sceneCode;
