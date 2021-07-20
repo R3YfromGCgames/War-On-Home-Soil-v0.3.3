@@ -107,7 +107,7 @@ gdjs.lvl_326Code.GDbulletObjects1.length = 0;
 
 {gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.lvl_326Code.mapOfGDgdjs_46lvl_95326Code_46GDbulletObjects1Objects, (( gdjs.lvl_326Code.GDtankObjects1.length === 0 ) ? 0 :gdjs.lvl_326Code.GDtankObjects1[0].getPointX("Canon")), (( gdjs.lvl_326Code.GDtankObjects1.length === 0 ) ? 0 :gdjs.lvl_326Code.GDtankObjects1[0].getPointY("Canon")), "");
 }{for(var i = 0, len = gdjs.lvl_326Code.GDbulletObjects1.length ;i < len;++i) {
-    gdjs.lvl_326Code.GDbulletObjects1[i].addForceTowardPosition(gdjs.evtTools.input.getMouseX(runtimeScene, "", 0), gdjs.evtTools.input.getMouseY(runtimeScene, "", 0), 300, 1);
+    gdjs.lvl_326Code.GDbulletObjects1[i].addForceTowardPosition(gdjs.evtTools.input.getMouseX(runtimeScene, "", 0), gdjs.evtTools.input.getMouseY(runtimeScene, "", 0), 600, 1);
 }
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "FireRate");
 }}
@@ -246,7 +246,7 @@ gdjs.lvl_326Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollision
 gdjs.copyArray(runtimeScene.getObjects("alien2"), gdjs.lvl_326Code.GDalien2Objects1);
 gdjs.copyArray(runtimeScene.getObjects("tank"), gdjs.lvl_326Code.GDtankObjects1);
 {for(var i = 0, len = gdjs.lvl_326Code.GDalien2Objects1.length ;i < len;++i) {
-    gdjs.lvl_326Code.GDalien2Objects1[i].getBehavior("Pathfinding").moveTo(runtimeScene, 0, (( gdjs.lvl_326Code.GDtankObjects1.length === 0 ) ? 0 :gdjs.lvl_326Code.GDtankObjects1[0].getPointY("")));
+    gdjs.lvl_326Code.GDalien2Objects1[i].getBehavior("Pathfinding").moveTo(runtimeScene, (( gdjs.lvl_326Code.GDtankObjects1.length === 0 ) ? 0 :gdjs.lvl_326Code.GDtankObjects1[0].getPointX("")), (( gdjs.lvl_326Code.GDtankObjects1.length === 0 ) ? 0 :gdjs.lvl_326Code.GDtankObjects1[0].getPointY("")));
 }
 }}
 

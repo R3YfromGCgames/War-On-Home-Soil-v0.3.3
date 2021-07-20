@@ -124,7 +124,7 @@ gdjs.lvl_328Code.GDbulletObjects1.length = 0;
 
 {gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.lvl_328Code.mapOfGDgdjs_46lvl_95328Code_46GDbulletObjects1Objects, (( gdjs.lvl_328Code.GDtankObjects1.length === 0 ) ? 0 :gdjs.lvl_328Code.GDtankObjects1[0].getPointX("Canon")), (( gdjs.lvl_328Code.GDtankObjects1.length === 0 ) ? 0 :gdjs.lvl_328Code.GDtankObjects1[0].getPointY("Canon")), "");
 }{for(var i = 0, len = gdjs.lvl_328Code.GDbulletObjects1.length ;i < len;++i) {
-    gdjs.lvl_328Code.GDbulletObjects1[i].addForceTowardPosition(gdjs.evtTools.input.getMouseX(runtimeScene, "", 0), gdjs.evtTools.input.getMouseY(runtimeScene, "", 0), 300, 1);
+    gdjs.lvl_328Code.GDbulletObjects1[i].addForceTowardPosition(gdjs.evtTools.input.getMouseX(runtimeScene, "", 0), gdjs.evtTools.input.getMouseY(runtimeScene, "", 0), 600, 1);
 }
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "FireRate");
 }}
@@ -284,7 +284,7 @@ gdjs.lvl_328Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollision
 }if ( gdjs.lvl_328Code.condition0IsTrue_0.val ) {
 {
 {gdjs.lvl_328Code.conditionTrue_1 = gdjs.lvl_328Code.condition1IsTrue_0;
-gdjs.lvl_328Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8060356);
+gdjs.lvl_328Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11462876);
 }
 }}
 if (gdjs.lvl_328Code.condition1IsTrue_0.val) {

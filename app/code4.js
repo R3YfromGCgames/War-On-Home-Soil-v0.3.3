@@ -130,7 +130,7 @@ gdjs.lvl_322Code.GDbulletObjects1.length = 0;
 
 {gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.lvl_322Code.mapOfGDgdjs_46lvl_95322Code_46GDbulletObjects1Objects, (( gdjs.lvl_322Code.GDtankObjects1.length === 0 ) ? 0 :gdjs.lvl_322Code.GDtankObjects1[0].getPointX("Canon")), (( gdjs.lvl_322Code.GDtankObjects1.length === 0 ) ? 0 :gdjs.lvl_322Code.GDtankObjects1[0].getPointY("Canon")), "");
 }{for(var i = 0, len = gdjs.lvl_322Code.GDbulletObjects1.length ;i < len;++i) {
-    gdjs.lvl_322Code.GDbulletObjects1[i].addForceTowardPosition(gdjs.evtTools.input.getMouseX(runtimeScene, "", 0), gdjs.evtTools.input.getMouseY(runtimeScene, "", 0), 300, 1);
+    gdjs.lvl_322Code.GDbulletObjects1[i].addForceTowardPosition(gdjs.evtTools.input.getMouseX(runtimeScene, "", 0), gdjs.evtTools.input.getMouseY(runtimeScene, "", 0), 600, 1);
 }
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "FireRate");
 }}
